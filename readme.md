@@ -1,4 +1,4 @@
-- **app/controllers:** This directory contains controller files responsible for handling incoming requests, validating input, and delegating tasks to the appropriate services.
+- **app/controllers:**  This directory contains controller files responsible for handling incoming requests, validating input, and delegating tasks to the appropriate services.
   
 - **app/models:** This directory contains model files representing the data structures used in the application, such as projects, files, and vectors.
   

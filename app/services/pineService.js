@@ -1,5 +1,9 @@
 // app/services/pineService.js
-import { Pinecone } from '@pinecone-database/pinecone';
+// import { Pinecone } from '@pinecone-database/pinecone';
+const { Pinecone } = require('@pinecone-database/pinecone');
+
+// Now you can use Pinecone in your code
+const config = require('../../config/config');
 
 const pinecone = new Pinecone({ apiKey: config.pineconeApiKey });
 

@@ -1,11 +1,8 @@
 // app/services/openaiEmbeddingService.js
-const { Configuration, OpenAIApi } = require('openai');
+const { OpenAI } = require('openai');
 const config = require('../../config/config');
 
-const configuration = new Configuration({
-  apiKey: config.openaiApiKey,
-});
-const openai = new OpenAIApi(configuration);
+const openai = new OpenAI(config.openaiApiKey);
 
 const openaiEmbeddingService = {
   generateEmbedding: async (text) => {

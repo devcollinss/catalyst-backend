@@ -10,3 +10,4 @@ module.exports = {
   pineconeEnvironment: process.env.PINECONE_ENVIRONMENT,
 };
 
+
